@@ -1,4 +1,4 @@
-import { app } from "./app";
+import { app } from './app';
 import { createConnection } from 'typeorm';
 
 app.listen(process.env.PORT, () => {
