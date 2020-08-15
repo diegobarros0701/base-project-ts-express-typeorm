@@ -1,8 +1,8 @@
 const { Router } = require('express');
-const router = Router();
+const routes = Router();
 
 // import resourceRoutes from './resource.routes';
 
 // router.use('/resources', resourceRoutes);
 
-export default router;
+export default routes;
