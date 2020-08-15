@@ -6,7 +6,8 @@
   "scripts": {
     "server": "node dist/server.js",
     "dev": "ts-node-dev -r tsconfig-paths/register server.ts --transpile-only",
-    "build": "tsc --outDir ./dist"
+    "build": "tsc --outDir ./dist",
+    "lint": "eslint '**/*.ts'"
   },
   "dependencies": {
     "cors": "^2.8.5",
