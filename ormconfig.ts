@@ -8,5 +8,6 @@ module.exports = {
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   entities: ['src/database/**/*.model.ts'],
+  logging: true,
   namingStrategy: new SnakeNamingStrategy()
 };
